@@ -1,0 +1,124 @@
+.container-profile {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../images/background.png'); /* Update the path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.profile-box {
+  position: relative;
+  background: rgba(255, 87, 74, 0.9);
+  text-align: center;
+  padding: 40px 90px;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.photo-container {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.add-photo-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: #40cecc;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.add-photo-icon:hover {
+  color: #42868f;
+}
+
+.photo {
+  height: 150px;
+  width: 150px;
+  background: white;
+  border-radius: 50%;
+}
+
+.profile-edit {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.edit-icon {
+  font-size: 24px;
+  color: #40cecc;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.edit-icon:hover {
+  color: #42868f;
+}
+
+.profile-data {
+  margin-top: 20px;
+}
+
+/* Edit section */
+.form-container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.input-field {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn-cancel {
+  padding: 10px 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color:rgb(209, 28, 28);
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.btn-save {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-cancel:hover,
+.btn-save:hover {
+  opacity: 0.9;
+}
