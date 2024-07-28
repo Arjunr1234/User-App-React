@@ -42,7 +42,7 @@ function AdminLogin() {
     return (
         <>
             
-            <h1 style={{textAlign:'center'}}> Admin Login</h1>
+            <h1 style={{textAlign: 'center', background: 'black', padding: '20px', color: 'white', borderBottom: '2px solid red'}}> Admin Login</h1>
 
             <div className="container">
               

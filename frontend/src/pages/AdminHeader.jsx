@@ -28,7 +28,7 @@ function AdminHeader({ onSearch }) {
   };
 
   return (
-    <div className='admin-dashboard'>
+    <div className='admin-dashboard admin-head'>
       <header className="dashboard-header">
         <h1 className="dashboard-title">Admin Dashboard</h1>
         <div className="user-info">
